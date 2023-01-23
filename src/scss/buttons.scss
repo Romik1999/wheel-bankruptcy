@@ -32,4 +32,19 @@
       color: #D00000;
     }
   }
+
+  &--pc {
+
+    @media screen and (max-width: 769px) {
+      display: none;
+    }
+  }
+
+  &--mob {
+    display: none;
+
+    @media screen and (max-width: 769px) {
+      display: flex;
+    }
+  }
 }
