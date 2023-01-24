@@ -387,6 +387,10 @@
     left: 0;
     top: 0;
     opacity: 0;
+
+    &:checked ~ .modal-form__icon:before {
+      opacity: 1;
+    }
   }
 
   &__icon {
@@ -398,6 +402,19 @@
     border: 1px solid $white;
     border-radius: 1px;
     box-sizing: border-box;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 15px;
+      height: 17px;
+      color: $white;
+      content: '\2713';
+      opacity: 0;
+      transition: 0.2s;
+    }
   }
 
   &__text {
