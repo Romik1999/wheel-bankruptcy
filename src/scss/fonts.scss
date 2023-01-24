@@ -34,7 +34,7 @@
   font-family: UniNeue;
   font-display: swap;
   src: url("../fonts/UniNeueBold.woff2") format("woff2"), url("../fonts/UniNeueBold.woff") format("woff");
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -42,6 +42,43 @@
   font-family: UniNeue;
   font-display: swap;
   src: url("../fonts/UniNeueBlack-Italic.woff2") format("woff2"), url("../fonts/UniNeueBlack-Italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: UniNeue;
+  font-display: swap;
+  src: url("../fonts/UniNeueHeavy.woff2") format("woff2"), url("../fonts/UniNeueHeavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: UniNeue;
+  font-display: swap;
+  src: url("../fonts/UniNeueHeavy-Italic.woff2") format("woff2"), url("../fonts/UniNeueHeavy-Italic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }

@@ -23,7 +23,7 @@
                 </div>
             </form>
         </div>
-        <div class="modal__link">Узнать <span class="cl-blue">подробнее</span></div>
+        <div class="modal__link" data-modal="modal-info">Узнать <span class="cl-blue">подробнее</span></div>
     </div>
 </div>
 
@@ -70,48 +70,67 @@
 <div class="modal modal-info">
     <div class="modal__wrapper">
         <div class="modal-info__closer modal__closer"></div>
-
-        <div class="modal-info__title modal__title">
-            Общие условия проведения розыгрыша
-        </div>
-        <ul class="modal-info__items modal__items">
-            <li class="modal-info__item modal__item">
+        <div class="modal__content">
+            <div class="modal-info__title modal__title">
+                Общие условия проведения розыгрыша
+            </div>
+            <ul class="modal-info__items modal__items">
+                <li class="modal-info__item modal__item">
+                <span>
                 1. Розыгрыш «Колесо Фортуны» является стимулирующим рекламным мероприятием, направленным на привлечение
                 внимания, формирование интереса и продвижение на рынке рекламируемой продукции, а также компании
                 «ЮРУС ГРУП».
-            </li>
-            <li class="modal-info__item modal__item">
+                    </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 2. Дата проведения розыгрыша с 16.01.2023 до 20.02.2023.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 3. Авторизация. Для участия в розыгрыше необходимо авторизоваться в системе, для этого оставьте свой
                 номер телефона на него придёт проверочный СМС-код, введи его в поле.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 4. Крутите колесо. По условия розыгрыша у вас есть три вращения, за каждое вращение выпадает скидка,
                 скидки не суммируются, воспользоваться можно только одной скидкой.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 5. Выигрывайте скидку 5000, 15000, 20000, 25000, 30000, 35000, 40000, 50000 или бесплатное обслуживание.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 6. Скидка и бесплатное обслуживание распространяется на программу «Стандарт» компании «ЮРУС ГРУП»,
                 на обязательные расходы скидка не распространяется, в том числе на оплату госпошлин и расходы
                 арбитражного управляющего.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 7. Розыгрыш не является лотереей, не содержит элемента риска и проводится в соответствии с
                 законодательством Российской Федерации и настоящими условиями розыгрыша.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 8. Розыгрыш проводится в рамках общей программы с ограничениями, установленными указанной программой.
-            </li>
-            <li class="modal-info__item modal__item">
+                 </span>
+                </li>
+                <li class="modal-info__item modal__item">
+                 <span>
                 9. Организатор имеет право в одностороннем порядке вносить изменения в настоящие Правила, в том числе
                 приостановить ее проведение в любой момент и/или изменить срок Розыгрыша без объяснения причин, уведомив
                 об этом участников за 1 календарный день.
-            </li>
-        </ul>
+                 </span>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -131,17 +150,21 @@
                 </div>
                 <div class="modal-state__subtitle">Возможна рассрочка на 10 месяцев по 5 тысяч рублей</div>
                 <div class="modal-state__sales">
-                    <div class="modal-state__sale">
-                        <span class="modal-state__sale--white">1 - скидка</span>
-                        <span class="modal-state__sale--yellow">5&nbsp;000&nbsp;₽</span>
-                    </div>
-                    <div class="modal-state__sale">
-                        <span class="modal-state__sale--white">2 - скидка</span>
-                        <span class="modal-state__sale--yellow">25&nbsp;000&nbsp;₽</span>
-                    </div>
-                    <div class="modal-state__sale">
-                        <span class="modal-state__sale--white">3 - скидка</span>
-                        <span class="modal-state__sale--yellow">50&nbsp;000&nbsp;₽</span>
+                    <div class="state-sales">
+                        <div class="state-sales__items">
+                            <div class="state-sales__item">
+                                <span class="state-sales__item--white">1 - скидка</span>
+                                <span class="state-sales__item--yellow">5&nbsp;000&nbsp;₽</span>
+                            </div>
+                            <div class="state-sales__item">
+                                <span class="state-sales__item--white">2 - скидка</span>
+                                <span class="state-sales__item--yellow">25&nbsp;000&nbsp;₽</span>
+                            </div>
+                            <div class="state-sales__item">
+                                <span class="state-sales__item--white">3 - скидка</span>
+                                <span class="state-sales__item--yellow">50&nbsp;000&nbsp;₽</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-state__bottom">
@@ -150,7 +173,8 @@
                 </div>
             </div>
             <div class="modal-state__img">
-                <img src="img/matryoshka.png">
+                <img src="img/matryoshka.png" class="modal-state__img--static">
+                <img src="img/fire.gif" class="modal-state__img--abs">
             </div>
         </div>
     </div>
