@@ -20,18 +20,6 @@
       align-items: center;
       height: auto;
     }
-
-    @media screen and (max-width: 769px) {
-    }
-
-    @media screen and (max-width: 575px) {
-    }
-
-    @media screen and (max-width: 425px) {
-    }
-
-    @media screen and (max-width: 350px) {
-    }
   }
 
   &__logo {
@@ -77,14 +65,41 @@
   text-align: center;
   cursor: pointer;
   color: $white;
+  transition: 0.2s;
 
   @media screen and (max-width: 1440px) {
     font-size: 16px;
   }
 
+  &:hover {
+    color: #d00000;
+
+    & .auth__icon svg path:first-child {
+      fill: #d00000;
+    }
+    & .auth__icon svg path:last-child {
+      stroke: #d00000;
+    }
+  }
+
   &__icon,
   &__text {
     display: flex;
+  }
+
+  &__icon {
+    & svg {
+      transition: 0.2s;
+
+      & path {
+        &:first-child {
+          fill: $white;
+        }
+        &:last-child{
+          stroke: $white;
+        }
+      }
+    }
   }
 
   &__text {

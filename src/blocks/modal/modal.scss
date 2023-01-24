@@ -102,6 +102,22 @@
 
   &__content {
     overflow: auto;
+    padding-right: 10px;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #FFB200;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #FF3434;
+      border-radius: 10px;
+    }
   }
 
   &__closer {
@@ -231,9 +247,17 @@
     color: $white;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
     margin-top: 24px;
+    cursor: pointer;
 
     & span {
       text-decoration: underline;
+      transition: 0.2s;
+    }
+
+    &:hover {
+      & span {
+        text-decoration: none;
+      }
     }
 
     @media screen and (max-width: 992px) {
